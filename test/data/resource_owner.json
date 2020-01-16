@@ -1,0 +1,45 @@
+{
+  "data": {
+    "id": 1,
+    "guid": "9cc6da15-d403-4f5b-aeed-c4b8463cf9ae",
+    "created_at": "2019-01-01T00:00:00.000000-05:00",
+    "updated_at": "2019-01-01T00:00:00.000000-05:00",
+    "name": "Benjamin Franklin",
+    "first_name": "Benjamin",
+    "last_name": "Franklin",
+    "active": true,
+    "time_zone": "US/Eastern",
+    "slack_username": "benjamin-franklin",
+    "twitter_handle": "@benjamin-franklin",
+    "email": "fake@salesloft.com",
+    "email_client_email_address": "fake@salesloft.com",
+    "sending_email_address": "fake@salesloft.com",
+    "from_address": "fake@salesloft.com",
+    "full_email_address": "\"Benjamin Franklin\" <Benjamin@salesloft.com>",
+    "bcc_email_address": "fake@salesloft.com",
+    "email_signature": "Benjamin Franklin<div></div><div></div>",
+    "email_signature_type": "html",
+    "email_signature_click_tracking_disabled": true,
+    "team_admin": true,
+    "local_dial_enabled": true,
+    "click_to_call_enabled": true,
+    "email_client_configured": true,
+    "crm_connected": true,
+    "external_feature_flags": {},
+    "phone_client": {
+      "id": 1
+    },
+    "phone_number_assignment": {
+      "id": 1,
+      "_href": "https://api.salesloft.com/v2/phone_number_assignments/1"
+    },
+    "group": {
+      "id": 1,
+      "_href": "https://api.salesloft.com/v2/groups/1"
+    },
+    "team": {
+      "id": 1,
+      "_href": "https://api.salesloft.com/v2/team"
+    }
+  }
+}

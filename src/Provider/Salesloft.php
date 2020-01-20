@@ -20,19 +20,6 @@ class Salesloft extends AbstractProvider
      */
     protected $host = 'https://accounts.salesloft.com';
 
-    /**
-     * Returns an authenticated PSR-7 request instance.
-     *
-     * @param  string $method
-     * @param  string $url
-     * @param  AccessToken|string $token
-     * @param  array $options Any of "headers", "body", and "protocolVersion".
-     * @return \Psr\Http\Message\RequestInterface
-     */
-    public function getAuthenticatedRequest($method, $url, $token, array $options = [])
-    {
-        return $this->createRequest($method, $url, $token, $options);
-    }
 
     /**
      * Get authorization url to begin OAuth flow
@@ -63,7 +50,7 @@ class Salesloft extends AbstractProvider
      */
     public function getResourceOwnerDetailsUrl(AccessToken $token)
     {
-        return 'https://api.salesloft.com/v2/users/me';
+        return 'https://api.salesloft.com/v2/me';
     }
 
     /**
